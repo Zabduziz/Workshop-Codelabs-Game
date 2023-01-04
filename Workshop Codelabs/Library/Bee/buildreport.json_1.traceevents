@@ -1,0 +1,543 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1671651959475111, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651959476533, "dur": 23649, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651959500370, "dur": 71288, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651959571682, "dur": 409702, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651959981387, "dur": 12755605, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651972737012, "dur": 10140, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651986248265, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651986248531, "dur": 4230, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651986252763, "dur": 48006, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651986300772, "dur": 1273688, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651987574462, "dur": 2964627, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651990539092, "dur": 11140, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651990551227, "dur": 35, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1671651987372178, "dur": 181855, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671651987373432, "dur": 46990, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671651987536018, "dur": 5263, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671651987541285, "dur": 12739, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671651987542102, "dur": 10709, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671651987559111, "dur": 1461, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671651987558246, "dur": 2353, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651990551429, "dur": 389, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671651987649652, "dur":4195, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651987653862, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671651987654007, "dur":45, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671651987654056, "dur":932, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671651987655057, "dur":1434, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651987656491, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516056, "dur":656, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516712, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516742, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516749, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516772, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516778, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516800, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516805, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516830, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516835, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516850, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516854, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516869, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516873, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516887, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516891, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516907, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516934, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990516966, "dur":4394, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671651987655890, "dur":642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651987656533, "dur":7249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651987663782, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671651987664182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651987670897, "dur":4203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671651987676833, "dur":15640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671651987692477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651987692488, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671651987694625, "dur":52905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671651987747537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651987747547, "dur":11575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671651987759193, "dur":94872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651987854073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651987854087, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651987856534, "dur":252744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988109285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988109298, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988111346, "dur":51102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988162456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988162515, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988165075, "dur":106865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988271945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988271956, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988275514, "dur":42450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988317968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988317980, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988320284, "dur":79757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988400049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988400065, "dur":4532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988404680, "dur":26395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988431082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988431096, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988433260, "dur":67372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988500675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988500687, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988502771, "dur":77474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988580253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988580267, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988582581, "dur":36678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988619266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988619279, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988621571, "dur":246234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988867810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988867821, "dur":6787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988875054, "dur":1525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988876584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988876597, "dur":7642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988884346, "dur":1711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988886062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988886071, "dur":5474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988891694, "dur":1118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988892816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651988892828, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651988894621, "dur":242094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989136721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651989136733, "dur":3898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989140710, "dur":86881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989227595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651989227605, "dur":6752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989234442, "dur":93489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989327938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651989327951, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989330208, "dur":515816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989846028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671651989846039, "dur":5717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671651989851829, "dur":664213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651987655915, "dur":633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651987656549, "dur":7155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651987663706, "dur":834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671651987664545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651987679351, "dur":4554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671651987684068, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671651987684709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651987684786, "dur":6389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671651987691264, "dur":566525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988257796, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651988257807, "dur":25791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988283676, "dur":16226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988299911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651988299925, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988303027, "dur":104568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988407601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651988407614, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988410121, "dur":39878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988450005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651988450017, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988452236, "dur":268400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988720689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651988720702, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651988728027, "dur":615515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651989343549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651989343569, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651989345790, "dur":624711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651989970505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671651989970516, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671651989974342, "dur":541654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987656308, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987656579, "dur":7134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987663713, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1671651987664519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987670610, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1671651987674051, "dur":1386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1671651987675445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987675721, "dur":5948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1671651987681784, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671651987682049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987683395, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671651987685581, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1671651987685762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987685771, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1671651987687712, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1671651987687938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987687948, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1671651987691107, "dur":207316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651987898431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987898613, "dur":9994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651987908692, "dur":25437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651987934134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651987934145, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651987936351, "dur":111079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988047435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651988047446, "dur":16644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988064167, "dur":117467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988181639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651988181665, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988183622, "dur":41640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988225270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651988225283, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988227501, "dur":40555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988268061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651988268104, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988270273, "dur":115771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988386050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651988386062, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988388104, "dur":333522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988721630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651988721641, "dur":71908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988793620, "dur":152405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988946033, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651988946088, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651988948528, "dur":261113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651989209649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651989209662, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651989211824, "dur":330199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651989542031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651989542045, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651989544537, "dur":301182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651989845725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671651989845737, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671651989848495, "dur":667550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987655841, "dur":677, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987656527, "dur":7150, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987663688, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1671651987663694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987666489, "dur":712, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1671651987667205, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1671651987667565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987667983, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1671651987673484, "dur":16794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1671651987690284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987690296, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1671651987692288, "dur":169738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1671651987862033, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987862045, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1671651987865196, "dur":49114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651987914315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987914325, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651987917502, "dur":67939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651987985450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651987985465, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651987988054, "dur":288502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988276561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988276573, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988280996, "dur":39834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988320834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988320847, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988323143, "dur":41095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988364244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988364255, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988366871, "dur":46688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988413565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988413578, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988415823, "dur":18101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988433928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988433940, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988435796, "dur":55158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988490961, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988490976, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988496409, "dur":69159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988565575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988565587, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988568450, "dur":112031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988680488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988680501, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988682903, "dur":214703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988897611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651988897624, "dur":3435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651988901134, "dur":813398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651989714537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651989714549, "dur":4697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651989719340, "dur":780701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651990500046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671651990500057, "dur":15637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671651990515934, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1671651990515941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987656170, "dur":397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987656567, "dur":7190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987663757, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671651987664017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987670826, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671651987678046, "dur":1941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671651987679995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987680012, "dur":4265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671651987684462, "dur":23948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1671651987708418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987708432, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1671651987711044, "dur":152339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651987863387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987863398, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651987866801, "dur":39126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651987905935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651987905949, "dur":5702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651987911739, "dur":96936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988008690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988008702, "dur":12971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988021758, "dur":50144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988071907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988071920, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988074316, "dur":104702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988179026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988179041, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988181475, "dur":83739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988265222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988265236, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988267329, "dur":43810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988311147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988311215, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988313589, "dur":70958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988384555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988384568, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988386977, "dur":88592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988475575, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988475599, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988480503, "dur":58116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988538625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988538637, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988540990, "dur":79004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988619999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988620013, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988623968, "dur":164384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988788359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988788373, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988793118, "dur":1392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988794515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988794527, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988796238, "dur":68149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988864446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988864471, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988866657, "dur":7087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988873750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988873764, "dur":6158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988880752, "dur":68688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988949444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651988949478, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651988952066, "dur":503623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651989455696, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651989455711, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651989458994, "dur":301345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651989760347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651989760361, "dur":7514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651989767953, "dur":580089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651990348052, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671651990348072, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671651990351405, "dur":164599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987656407, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987656599, "dur":7113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987663713, "dur":13623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671651987677343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987677478, "dur":6083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671651987683665, "dur":14105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671651987697776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987697790, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671651987701155, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1671651987701400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987701892, "dur":23061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1671651987725036, "dur":26842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651987751884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987752385, "dur":4282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651987756742, "dur":81555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651987838341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987838352, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651987841288, "dur":69414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651987910708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651987910720, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651987913049, "dur":131807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988044864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988044878, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988047540, "dur":95800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988143347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988143359, "dur":5491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988148929, "dur":130574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988279510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988279522, "dur":7425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988287024, "dur":125782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988412810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988416112, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988418683, "dur":24914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988443605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988443617, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988446032, "dur":22264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988468304, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988468319, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988470347, "dur":63694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988534049, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988534069, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988536391, "dur":72392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988608789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988608802, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988611182, "dur":241273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988852462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651988852476, "dur":17148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651988869713, "dur":142106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989011842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651989011855, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989014648, "dur":212447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989227103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651989227117, "dur":7363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989234570, "dur":478869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989713445, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651989713459, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989716666, "dur":139443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989856116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671651989856129, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671651989858620, "dur":657423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651987656531, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651987656535, "dur":7151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651987663688, "dur":57888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1671651987721638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651987723221, "dur":5507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1671651987728813, "dur":67077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651987795898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651987796022, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651987798334, "dur":76076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651987874417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651987874428, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651987876773, "dur":51592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651987928373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651987928386, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651987930687, "dur":77246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988007941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651988007956, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988010897, "dur":347463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988358367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651988358380, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988360666, "dur":64794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988425465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651988425476, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988428103, "dur":67742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988495852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651988495864, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988498113, "dur":104535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988602657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651988602670, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988607768, "dur":222732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988830507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651988830521, "dur":8173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988838777, "dur":88796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988927581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651988927596, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651988930246, "dur":203854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989134108, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989134124, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989136368, "dur":251074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989387449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989387462, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989392344, "dur":369855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989762204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989762225, "dur":7769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989770073, "dur":1692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989771769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989771782, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671651989773716, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1671651989773928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989774545, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1671651989776374, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1671651989776464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989776513, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1671651989778657, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989778736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989778745, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989780211, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671651989780286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989780293, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671651989781855, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989781928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989781935, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989783569, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989783641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989783647, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989786895, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671651989786970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989786978, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671651989788430, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989788502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989788508, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989789858, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1671651989790041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989790048, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1671651989792166, "dur":972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1671651989793142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989793149, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1671651989794495, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1671651989794567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989794573, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1671651989795879, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1671651989795949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989795955, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1671651989797293, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1671651989797367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989797374, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1671651989799319, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671651989799425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989799432, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671651989802332, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1671651989802419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989802428, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1671651989803986, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989804076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989804085, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671651989805905, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1671651989805986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989805993, "dur":21795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1671651989827935, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1671651989828185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671651989828195, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1671651989829832, "dur":686227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987656654, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987656655, "dur":7101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987663757, "dur":17643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1671651987681406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987681446, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1671651987684856, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1671651987685043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987685053, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1671651987688206, "dur":59495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651987747706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987751602, "dur":6919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651987758607, "dur":77342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651987835956, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987835979, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651987839024, "dur":74817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651987913847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651987913865, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651987916406, "dur":148162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988064574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651988064588, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988067742, "dur":246482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988314228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651988314240, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988316620, "dur":106929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988423570, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651988423598, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988426138, "dur":131515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988557660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651988557673, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988560254, "dur":309014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988869273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651988869284, "dur":8232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988879424, "dur":5265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988884693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651988884705, "dur":6763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988891630, "dur":56835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988948470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651988948481, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651988951141, "dur":422095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651989373243, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651989373258, "dur":7229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651989380565, "dur":99879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651989480452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651989480465, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651989484938, "dur":276654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651989761597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651989761610, "dur":8168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651989769865, "dur":332445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651990102316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671651990102327, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zabdu/Documents/Codelabs/Game/Project/GameBuild/Workshop Codelabs_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671651990104558, "dur":411442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671651990525974, "dur":2607, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671651990551928, "dur": 877, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671651990551211, "dur": 1628, "ph": "X", "name": "Write chrome-trace events", "args": {} },
