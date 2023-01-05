@@ -4,13 +4,16 @@ Membuat project game untuk tugas codelabs
 ## Deskripsi 
 Ini merupakan project game pertama yang saya buat. Tentunya masih banyak hal yang kurang dalam game ini dan berharap kedepannya bisa membuat project game yang lebih baik.
 
+Judul dari game ini adalah Kapsul Gepeng. Sistem dari game ini adalah seperti permainan maze dan harus mencari kotak biru agar bisa melanjutkan ke level berikutnya.
+
 ## Cara Bermain 
 - WASD untuk jalan
 - Menggerakan mouse untuk melihat sekitar
 - sentuh kotak biru untuk melanjutkan ke level berikutnya
 
 ## Warning
-Jangan sampai jatuh ke bawah, karena tidak bisa di reset dan harus meng-close aplikasi gamenya untuk mengulang.
+- Jangan sampai jatuh ke bawah, karena tidak bisa di reset dan harus meng-close aplikasi gamenya untuk mengulang.
+- Karena pengaturan cahaya bermasalah, mungkin untuk mencari kotak biru menjadi agak sulit.
 
 ## Assets
 Berikut adalah asset-asset yang di ambil dari internet
