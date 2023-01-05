@@ -19,6 +19,10 @@ Berikut adalah asset-asset yang di ambil dari internet
 - [Cinemachine](https://unity.com/unity/features/editor/art-and-design/cinemachine) Sebagai alat bantu camera
 
 ## Refrensi
+- Video materi game codelabs
 - Third Person Camera Tutorial https://www.youtube.com/watch?v=UCwwn2q4Vys&t=88s
 - Membuat Start Menu https://www.youtube.com/watch?v=zc8ac_qUXQY
-- Pindah Level
+- Pindah Level https://www.youtube.com/watch?v=Va90Uf28Tg8&list=RDCMUC_Fh8kvtkVPkeihBs42jGcA&index=24
+
+## Feedback
+Jika kalian punya saran dan kritik, mohon untuk bisa mengirim nya di email zaidanabdulaziz03@gmail.com 
